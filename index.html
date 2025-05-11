@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalorienzähler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Mein Kalorienzähler</h1>
+  <form id="food-form">
+    <input type="text" id="name" placeholder="Lebensmittel" required />
+    <input type="number" id="calories" placeholder="Kalorien" required />
+    <button type="submit">Hinzufügen</button>
+  </form>
+
+  <ul id="food-list"></ul>
+  <h2>Gesamtkalorien: <span id="total">0</span> kcal</h2>
+
+  <script src="app.js"></script>
+</body>
+</html>
